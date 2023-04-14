@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,400;1,200&family=Rubik:ital,wght@0,400;1,300&family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Sacramento&family=Sono:wght@200&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@200&family=Sacramento&family=Sono:wght@200&family=Tangerine&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 2;
+    background-color: #FFC8C8;
+}
+
+header img {
+    width: 20px;
+    height: 20px;
+    min-width: 130px;
+    height: auto;
+    position: relative;
+    top: 10px;
+    left: 0;
+}
+
+header h1 {
+    position: absolute;
+    top: 0px;
+    left: 2em;
+    font-family: 'Sono', sans-serif;
+    font-size: 8rem;
+    color: #863D3D;
+
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #863D3D;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    border-top: 0px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav ul a li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(200, 254, 255);
+    margin-left: 30px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    text-align: center;
+}
+
+nav ul a li:hover {
+    color: rgb(255, 160, 203);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+main {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+section article {
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+section article h2 {
+    font-weight: bold;
+    color: #863D3D;
+    text-align: center;
+    font-size: 3em;
+}
+
+section article p {
+    background-color: #f28a8caa;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+section div {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    font-family: 'Sono', sans-serif;
+}
+
+section div img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #863D3D
+}
+
+footer {
+    position: relative;
+    top: 1700px;
+    width: 100%;
+    height: 100px;
+    background-color: #f28a8caa;
+    font-family: 'Sono', sans-serif;
+    color: #fff;
+
+}
